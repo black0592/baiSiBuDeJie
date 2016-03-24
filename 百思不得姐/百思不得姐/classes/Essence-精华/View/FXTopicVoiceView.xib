@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="FXTopicVoiceView">
+            <rect key="frame" x="0.0" y="0.0" width="271" height="223"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="g2z-4T-WcY" userLabel="背景图片">
+                    <rect key="frame" x="0.0" y="0.0" width="271" height="223"/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RqW-45-WBl" userLabel="中间按钮">
+                    <rect key="frame" x="104" y="80" width="63" height="63"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="63" id="Ezm-UY-cAX"/>
+                        <constraint firstAttribute="width" constant="63" id="s8c-SR-lMQ"/>
+                    </constraints>
+                    <state key="normal" image="playButtonPlay" backgroundImage="playButton"/>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M7I-8r-Bo5">
+                    <rect key="frame" x="235" y="0.0" width="35.5" height="17"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tlp-Ui-gu9">
+                    <rect key="frame" x="235" y="206" width="35.5" height="17"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="imageBackground" translatesAutoresizingMaskIntoConstraints="NO" id="NUW-bM-KCz" userLabel="占位图片">
+                    <rect key="frame" x="0.0" y="20" width="271" height="25"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="25" id="b26-Lg-eb0"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" red="0.86274509803921573" green="0.86274509803921573" blue="0.86274509803921573" alpha="0.5" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="M7I-8r-Bo5" secondAttribute="trailing" id="1iq-xA-QGL"/>
+                <constraint firstAttribute="trailing" secondItem="g2z-4T-WcY" secondAttribute="trailing" id="4Mn-8E-kx6"/>
+                <constraint firstItem="RqW-45-WBl" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="7Re-9W-Qzg"/>
+                <constraint firstAttribute="bottom" secondItem="g2z-4T-WcY" secondAttribute="bottom" id="ARa-Yt-IzL"/>
+                <constraint firstAttribute="trailing" secondItem="NUW-bM-KCz" secondAttribute="trailing" id="COw-Wm-qfA"/>
+                <constraint firstItem="g2z-4T-WcY" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="OLW-8g-tUe"/>
+                <constraint firstAttribute="bottom" secondItem="Tlp-Ui-gu9" secondAttribute="bottom" id="TAd-8j-oGF"/>
+                <constraint firstItem="NUW-bM-KCz" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Zan-Xj-Gsp"/>
+                <constraint firstItem="g2z-4T-WcY" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="h16-HJ-A1W"/>
+                <constraint firstItem="NUW-bM-KCz" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="20" id="m8n-Bf-83d"/>
+                <constraint firstAttribute="trailing" secondItem="Tlp-Ui-gu9" secondAttribute="trailing" id="pwY-8W-Dot"/>
+                <constraint firstItem="RqW-45-WBl" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="qLf-9m-Fhz"/>
+                <constraint firstItem="M7I-8r-Bo5" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="vmc-yh-Exy"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="imageView" destination="g2z-4T-WcY" id="3ul-wL-guX"/>
+                <outlet property="playcountLabel" destination="M7I-8r-Bo5" id="0XK-Gq-5Q2"/>
+                <outlet property="voicetimeLabel" destination="Tlp-Ui-gu9" id="SUi-PN-xon"/>
+            </connections>
+            <point key="canvasLocation" x="244.5" y="320.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="imageBackground" width="75" height="15"/>
+        <image name="playButton" width="63" height="63"/>
+        <image name="playButtonPlay" width="30" height="30"/>
+    </resources>
+</document>

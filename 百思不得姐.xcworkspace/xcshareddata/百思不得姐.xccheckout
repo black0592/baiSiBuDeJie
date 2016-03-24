@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>2E8A0D70-A2D3-4047-911B-223C081BD352</string>
+	<key>IDESourceControlProjectName</key>
+	<string>百思不得姐</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>E74E3F8E-6012-432E-BD7E-DA315A195F09</key>
+		<string>https://git.oschina.net/fcx891231/baiSiBuDeJie.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>百思不得姐/百思不得姐.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>E74E3F8E-6012-432E-BD7E-DA315A195F09</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://git.oschina.net/fcx891231/baiSiBuDeJie.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>E74E3F8E-6012-432E-BD7E-DA315A195F09</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>E74E3F8E-6012-432E-BD7E-DA315A195F09</string>
+			<key>IDESourceControlWCCName</key>
+			<string>baiSiBuDeJie</string>
+		</dict>
+	</array>
+</dict>
+</plist>
